@@ -18,6 +18,7 @@
 		C9EA67F32A645E6F00F97149 /* SDKDemoExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EA67F22A645E6F00F97149 /* SDKDemoExampleTests.swift */; };
 		C9EA67FD2A645E6F00F97149 /* SDKDemoExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EA67FC2A645E6F00F97149 /* SDKDemoExampleUITests.swift */; };
 		C9EA67FF2A645E6F00F97149 /* SDKDemoExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EA67FE2A645E6F00F97149 /* SDKDemoExampleUITestsLaunchTests.swift */; };
+		C9EA680A2A6460A000F97149 /* SwiftLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EA68092A6460A000F97149 /* SwiftLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		C9EA67F82A645E6F00F97149 /* SDKDemoExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKDemoExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9EA67FC2A645E6F00F97149 /* SDKDemoExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKDemoExampleUITests.swift; sourceTree = "<group>"; };
 		C9EA67FE2A645E6F00F97149 /* SDKDemoExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKDemoExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9EA68092A6460A000F97149 /* SwiftLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			children = (
 				C9EA678D2A645DE200F97149 /* SDKDemo2.h */,
 				C9EA678E2A645DE200F97149 /* SDKDemo2.docc */,
+				C9EA68092A6460A000F97149 /* SwiftLib.swift */,
 			);
 			path = SDKDemo2;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9EA678F2A645DE200F97149 /* SDKDemo2.docc in Sources */,
+				C9EA680A2A6460A000F97149 /* SwiftLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +635,7 @@
 		C9EA67A22A645DE200F97149 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WPS4LP3PZZ;
@@ -651,6 +656,7 @@
 		C9EA67A32A645DE200F97149 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WPS4LP3PZZ;
